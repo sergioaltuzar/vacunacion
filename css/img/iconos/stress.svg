@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="117" height="117" viewBox="0 0 117 117">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2848c6;
+      }
+
+      .cls-2 {
+        font-size: 20px;
+        fill: #fff;
+        text-anchor: middle;
+        font-family: Arial;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <image id="Capa_1_copia" data-name="Capa 1 copia" x="2" y="1" width="113" height="114" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHEAAAByCAYAAABk6j5+AAADKklEQVR4nO3ZP27iQBzF8QeNW3IDkNyHLV1tuAE3IJyMcAPfADqXQG8p3CC0rrIa6wcCG1jYhdjz5n0kmjh/nPlqZszQQYtkefHsmzn+f79rVx8oiaMfG9h/jpjlRQ/AGMArgKG9erVvlEt2ANb22gBIkzjaXfjeq+6OmOWFCzexgPJYKYB5EkfpUyJmefEGYAagX7soj7YFME3iaPmQiLZszjTzGpFazKvL7NWIWV64fW6hva5RLuAoiaP1pZvo1r5isrx4B7BSwMa58V9Zj7POzkT7gVntgjTNLa0f1XuoRbQldNXmXN/nbjwcv6pL68lY2EPMp5bQVnN75OD4Yae6J84UsPV61a3uMBPtfeAi9BHyyGj/PvJ4JupBxi+HXmVEO0rTSYxf+tbtMBMnoY+Ip8puHXsi/Qp9NDz20tWZqPfGXfs8UPz12rUPc8VfQ0X0XxlRJzR+6138KEr8oYgEFJGAIhJQRAKKSEARCSgiAUUkoIgEFJGAIhJQRAKKSEARCSgiAUUkoIgEFJGAIhJQRAKKSEARCSgiAUUkoIgEFJGAIhJQRAKKSEARCSgiAUUkoIgEFJGAIhJQRAKKSEARCSgiAUUkoIgEFJGAIhJQRAKKSEARCSgiAUUkoIgEFJGAIhJQRAKKSEARCSgiAUUkoIgEFJGAIhJQRAKKSEARCSgiAUUkoIgEFJGAIhJQRAKKSEARCSgiAUUkoIgEXMRd6IPguZ2LuA59FDy3VkT/lRE3oY+C5zadLC96AL5CHwmPvXSTOHIPNmnoI+Gp1PXbv8WYhz4aniq7dfb3nuXFJ4B+6KPikW0SRwNU3uxPQx8Vzxx6HSImcbTU3uiN1HqVqsduU53gtN6uumqeRLQn1VHoo9RyI+t0UDsAT+Jorf2xtabW50Tn0t1mefEOYFa7IE1xAT/O/e2LES3kEMACQK92UX7KzpbQ2gzcqy2nx+wHB3pqbYwb98G1gPjbTDyW5cWbLa86EHi+rS2fy1v+0s0R97K8GAOYABjXLsr/cjNvnsTRXSvf3RGPYrp90s3O3wCG9tLeeTu317ll0r3cx4HlYfbdvwXAH7CEmKfaNALsAAAAAElFTkSuQmCC"/>
+  <rect id="Rectángulo_1" data-name="Rectángulo 1" class="cls-1" x="19" y="19" width="80" height="80" rx="9" ry="9"/>
+  <text id="x" class="cls-2" transform="translate(58.486 67.792) scale(1.903)"><tspan x="0">x</tspan></text>
+</svg>
