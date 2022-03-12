@@ -1,0 +1,643 @@
+:root {
+    --celeste:  #0c95e5;
+    --azul:  #1f3e72;
+    --light-blue:  #f1f5ff;
+    --yellow:  #ffd012;
+    --off-blue:  #e2e9f9;
+    --white:  #FFFFFF;
+    --off-pink:  #ffe1ea;
+    
+}
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+    background-color: ffffff;
+
+}
+
+/* NAVBAR */
+
+.show{
+    display: flex !important;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li .vacunationbold{
+    font-weight: bold;
+    
+}
+
+nav ul li > a {
+    display: block;
+    position: relative;
+    padding: 20px 15px 10px 15px;
+    text-decoration: none;
+    color: #0c95e5;
+}
+
+
+
+nav ul li .link::before {
+    content: " ";
+    position: absolute;
+    display: block;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+    
+
+    background-color: #0c95e5;
+    
+    
+}
+
+nav ul li .link:hover::before {
+    transform: scaleX(1);
+    
+}
+
+nav ul li .link{
+    margin-left: 80px;
+    
+    
+}
+nav .mobile{
+    display: none;
+    width: 100%;
+}
+
+nav .mobile .header {
+ background-color: #0c95e5;
+ display: flex;
+ text-align: center;
+ justify-content: first baseline;
+ flex-direction: row;
+}
+
+nav .mobile .header a {
+    color: white;
+    display: inline-flex;
+    text-decoration: none;
+    padding: 10px;   
+   }
+
+   nav .mobile .header .vacunation {
+    font-size: 20px;
+    margin-left: 40%;
+    }
+
+    nav .mobile .header #bmenu {
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        color: #ffffff;  
+       }
+
+nav .mobile .links{
+    display: none;
+    flex-direction: column;
+    position: relative;
+    z-index: 200;
+}
+
+nav .mobile .links a {
+    font-size: 20px;
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #0c95e5;
+}
+
+
+nav .mobile .links a:hover {
+    font-size: 20px;
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #0c95e5;
+}
+
+@media (max-width: 768px) {
+    nav{
+        width: 100%;
+        padding: 0;
+    }
+    
+    nav ul{
+        display: none;
+    }
+    nav .mobile{
+        display: block;
+    }
+}
+
+
+/*  */
+
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 62.5%;
+    color: var(--azul);
+}
+
+
+/* Nav Section */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 100%;
+    min-width: 320px;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.9);
+    font-weight: 700;
+    z-index: 3;
+    padding: 0px 95px;
+}
+
+.blue-button {
+    width: 120px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    background-color: var(--azul);
+    color: var(--white);
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Section 1 - Fight Virus */
+.title-section {
+    width: 100%;
+    height: 650px;
+    display: flex;
+}
+    /* Section 1 - Left */
+.title-section .title-container {
+    width: 50%;
+    height: 580px;
+    padding: 80px 100px 150px 90px;
+}
+.title-section .title-container h1 {
+    font-size: 4.2rem;
+}
+.title-section .title-container p {
+    width: 270px;
+    font-size: 1.4rem;
+    margin: 15px 0px;
+}
+.title-section .title-container .yellow-icon-container {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+}
+.title-section .title-container .yellow-icon-container .small-icon {
+    width: 40px;
+    height: 40px;
+    margin: 0px 10px;
+    padding: 5px;
+}
+.title-section .title-container .yellow-icon-container .shield {
+    background: url(img/iconos/escudo-yellow.svg) center center / contain no-repeat;
+}
+.title-section .title-container .yellow-icon-container .star {
+    background: url(img/iconos/star-icon1.svg) center center / contain no-repeat;
+}
+.title-section .title-container .schedule-container {
+    width: 300px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: 80px;
+}
+.title-section .title-container .schedule-container span {
+    width: 18px;
+    height: 18px;
+    margin: 0px 10px;
+    padding: 5px;
+    background: url(img/iconos/clock.png) center center / contain no-repeat;
+}
+.title-section .title-container .schedule-container p {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+    /* Section 1 - Right */
+.title-section .title-image {
+        height: 650px;
+        display: flex;
+        justify-content: center;
+}
+.title-section .title-image img {
+    width: 100%;
+    object-fit: cover;
+}
+
+    /* Section 1 - Floating card */
+.floating-card {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 90px;
+    top: 610px;
+    width: 65%;
+    min-width: 660px;
+    height: 100px;
+    font-size: 1.6rem;
+    background-color: rgba(255, 255, 255, 0.85);
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 2px 10px 1px;
+    padding: 15px 50px;
+    border-radius: 5px;
+}
+.floating-card-left {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.floating-card-icon {
+    width: 12px;
+    height: 12px;
+    align-self: baseline;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 3px 4px;
+    margin: 5px 10px 0px 20px;
+    padding: 1px;
+    background: center center / contain no-repeat;
+}
+.pin-icon {
+    background-image: url(img/iconos/pin-blue.svg);
+}
+.calendar-icon {
+    background-image: url(img/iconos/calendar.png);
+}
+.shot-icon{
+    background-image: url(img/iconos/type.png);
+}
+.floatin-card-right {
+    justify-self: center;
+    padding: 10px;
+}
+
+/* Section 2 - Logos */
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    padding: 30px 100px;
+}
+.logos .logo-opaque {
+    display: inline-block;
+    width: 200px;
+    opacity: 0.5;
+    margin: 0px 30px;
+}
+
+/* Section 3 -Reasons for vaccination */
+.reasons {
+    width: 100%;
+    padding: 40px 80px;
+}
+.reasons-text h2 {
+    font-size: 4.2rem;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+.reasons-text p {
+    width: 380px;
+    font-size: 1.6rem;
+    margin: 15px 0px;
+}
+    /* Reasons Cards */
+.reasons-card-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 0px;
+    padding: 0px 30px;
+}
+.reasons-card {
+    width: 20%;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.2) 1px 3px 5px;
+    padding: 20px;
+    margin: 0px 10px;
+    border-radius: 5px;
+}
+.reasons-card-icon1 {
+    width: 35px;
+    height: 35px;
+    margin-bottom: 15px;
+    padding: 2px;
+    background: url(img/iconos/spread-icon1.svg) center center / contain no-repeat;
+}
+.reasons-card-icon2 {
+    width: 35px;
+    height: 35px;
+    margin-bottom: 15px;
+    padding: 2px;
+    background: url(img/iconos/antibodies.png) center center / contain no-repeat;
+}
+.reasons-card-icon3 {
+    width: 35px;
+    height: 35px;
+    margin-bottom: 15px;
+    padding: 2px;
+    background: url(img/iconos/people.png) center center / contain no-repeat;
+}
+
+.reasons-card-icon4 {
+    width: 35px;
+    height: 35px;
+    margin-bottom: 15px;
+    padding: 2px;
+    background: url(img/iconos/inmunity.png) center center / contain no-repeat;
+}
+.reasons-card h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+.reasons-card p {
+    font-size: 1.2rem;
+}
+
+/* Section 4 - Prep before vaccination */
+.prep {
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: space-between;
+}
+    /* Section 4 - left */
+.prep-image {
+    width: 47%;
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+}
+.prep-image img {
+    height: 100%;
+    object-fit: cover;
+}
+    /* Section 4 - right */
+.prep-container {
+    width: 50%;
+    height: 650px;
+}
+.prep-container h2 {
+    font-size: 4.2rem;
+    font-weight: 700;
+    margin: 50px 0px 20px;
+}
+.prep-container p {
+    font-size: 1.6rem;
+}
+.prep-list-container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    padding: 20px;
+}
+.list-item {
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 5px;
+}
+.list-icon1 {
+    width: 15px;
+    height: 15px;
+    margin: 0px 15px;
+    background: url(img/iconos/alcoholic.png) center center / contain no-repeat;
+}
+.list-icon2 {
+    width: 15px;
+    height: 15px;
+    margin: 0px 15px;
+    background: url(img/iconos/stress.png) center center / contain no-repeat;
+}
+.list-icon3 {
+    width: 15px;
+    height: 15px;
+    margin: 0px 15px;
+    background: url(img/iconos/food.png) center center / contain no-repeat;
+}
+.list-icon4 {
+    width: 15px;
+    height: 15px;
+    margin: 0px 15px;
+    background: url(img/iconos/sleep.png) center center / contain no-repeat;
+}
+.list-icon5 {
+    width: 15px;
+    height: 15px;
+    margin: 0px 15px;
+    background: url(img/iconos/exercise.png) center center / contain no-repeat;
+}
+.list-item p {
+    width: 260px;
+}
+.drop-icon {
+    width: 15px;
+    height: 15px;
+    justify-self: right;
+    margin: 0px 15px;
+    background: url(assets/icons/spread-icon1.svg) center center / contain no-repeat;
+}
+
+/* Section 5 - Contact info cards */
+.contact {
+    width: 100%;
+    height: 750px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+    /* Section 5 - Contact left */
+.contact-container {
+    width: 50%;
+    height: 650px;
+    padding-left: 90px;
+}
+.contact-container h2 {
+    font-size: 4.2rem;
+    font-weight: 700;
+    margin: 50px 0px 20px;
+}
+.contact-container > p {
+    font-size: 1.6rem;
+    margin-bottom: 120px;
+}
+
+    /* Contact Cards */
+.contact-card-container {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+}
+.contact-card {
+    width: 180px;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 10px;
+    margin: 10px;
+    padding: 10px;
+}
+.contact-card-top {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.card-icon1 {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    background-image: url(img/iconos/call.png);
+}
+
+.card-icon2 {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    background-image: url(img/iconos/chat.png);
+}
+.card-icon3 {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    background-image: url(img/iconos/video.png);
+}
+.card-icon4 {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    background-image: url(img/iconos/message.png);
+}
+.contact-card div + div {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.opaque-button {
+    color: var(--celeste);
+    background-color: var(--off-blue);
+}
+.card-text-container p + p {
+    font-size: 1rem;
+}
+    
+    /* Section 5 - Contact right */
+.contact-image {
+    width: 47%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+}
+.contact-image img {
+    height: 90%;
+    object-fit: cover;
+}
+
+/* Footer Section */
+footer {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 250px;
+    padding: 40px 90px 10px;
+    font-size: 1.3rem;
+    background-color: var(--light-blue);
+}
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    height: 80%;
+}
+.goal-side {
+    width: 150px;
+}
+.goal-side h3 {
+    font-size: 2.4rem;
+    color: var(--celeste);
+    margin-bottom: 15px;
+}
+
+.about-side {
+    width: 650px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.4rem;
+}
+.about-side ul {
+    list-style: none;
+    margin: 0 25px;
+}
+.about-side ul li {
+    margin: 10px 0;
+}
+.about-side ul li b {
+    font-size: 1.6rem;
+}
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-bottom div p {
+    display: inline;
+    margin: 0 10px;
+}
